@@ -10,8 +10,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.45550527903469074,
-            "y": 0.39428571428571424,
+            "x": 0.4475597092419522,
+            "y": 0.4228571428571429,
             "uniqueID": 480293,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return readStl({ path: 'stl/teapot.stl',\n          format: 'ascii',\n          sources: [{ file: 'stl/teapot.stl' },\n                    { url: 'https://jsxcad.js.org/stl/teapot.stl' }] })     //return must be geometry;\n}\n\nreturn main(Input1, Input2)\n"
